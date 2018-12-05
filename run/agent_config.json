@@ -73,7 +73,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "D:\\egg-learn\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "d:\\egg-learn\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -85,14 +85,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\egg-learn\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\egg-learn\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "d:\\egg-learn\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "d:\\egg-learn\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "D:\\egg-learn\\logs\\egg-learn\\egg-schedule.log"
+        "file": "d:\\egg-learn\\logs\\egg-learn\\egg-schedule.log"
       }
     },
     "multipart": {
@@ -129,18 +129,27 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\egg-learn\\app\\public",
+      "dir": "d:\\egg-learn\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "D:\\egg-learn\\app\\view",
+      "root": "d:\\egg-learn\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".tpl": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
     },
     "env": "local",
     "name": "egg-learn",
@@ -156,7 +165,10 @@
       "main": "index.js",
       "dependencies": {
         "egg": "^2.14.1",
-        "egg-bin": "^4.9.0"
+        "egg-bin": "^4.9.0",
+        "egg-view-nunjucks": "^2.2.0",
+        "moment": "^2.22.2",
+        "mysql2": "^1.6.4"
       },
       "devDependencies": {},
       "scripts": {
@@ -174,9 +186,9 @@
       },
       "homepage": "https://github.com/zi-qiong/egg-learn#readme"
     },
-    "baseDir": "D:\\egg-learn",
+    "baseDir": "d:\\egg-learn",
     "HOME": "C:\\Users\\R9YEY87",
-    "rundir": "D:\\egg-learn\\run",
+    "rundir": "d:\\egg-learn\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -206,7 +218,7 @@
       }
     },
     "logger": {
-      "dir": "D:\\egg-learn\\logs\\egg-learn",
+      "dir": "d:\\egg-learn\\logs\\egg-learn",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -281,8 +293,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-session",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -294,8 +306,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-security",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-security",
       "version": "2.4.1"
     },
     "jsonp": {
@@ -307,8 +319,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-jsonp",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -320,8 +332,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-onerror",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -331,8 +343,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-i18n",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -342,8 +354,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-watcher",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -353,8 +365,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-schedule",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-schedule",
       "version": "3.4.0"
     },
     "multipart": {
@@ -366,8 +378,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-multipart",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-multipart",
       "version": "2.3.0"
     },
     "development": {
@@ -381,8 +393,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-development",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-development",
       "version": "2.4.1"
     },
     "logrotator": {
@@ -394,8 +406,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-logrotator",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-logrotator",
       "version": "3.0.4"
     },
     "static": {
@@ -405,8 +417,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-static",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -416,9 +428,23 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-learn\\node_modules\\egg-view",
+      "from": "d:\\egg-learn\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-view",
       "version": "2.1.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "d:\\egg-learn\\config\\plugin.js",
+      "path": "d:\\egg-learn\\node_modules\\egg-view-nunjucks",
+      "version": "2.2.0"
     }
   }
 }

@@ -299,3 +299,73 @@
 2018-11-30 11:35:38,163 INFO 16084 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"D:\\egg-learn\\config\\config.default.js","stat":{"dev":934398,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1125899907017421,"size":130,"atimeMs":1543546534193.7832,"mtimeMs":1543548938158.2893,"ctimeMs":1543548938158.2893,"birthtimeMs":1543546534193.7832,"atime":"2018-11-30T02:55:34.194Z","mtime":"2018-11-30T03:35:38.158Z","ctime":"2018-11-30T03:35:38.158Z","birthtime":"2018-11-30T02:55:34.194Z"},"remove":false,"isDirectory":false,"isFile":true}
 2018-11-30 11:35:38,364 WARN 16084 [agent:development] reload worker because D:\egg-learn\config\config.default.js change
 2018-11-30 11:35:39,910 WARN 16084 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-12-05 15:51:02,463 INFO 1936 [egg:logger] init all loggers with options: {"dir":"d:\\egg-learn\\logs\\egg-learn","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-learn-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-05 15:51:03,090 INFO 1936 [egg:core] dump config after load, 10ms
+2018-12-05 15:51:03,131 INFO 1936 [egg-watcher] Start watching: ["d:\\egg-learn\\app","d:\\egg-learn\\config","d:\\egg-learn\\mocks","d:\\egg-learn\\mocks_proxy","d:\\egg-learn\\app.js"]
+2018-12-05 15:51:03,131 INFO 1936 [egg-watcher] Start watching: "d:\\egg-learn\\app"
+2018-12-05 15:51:03,131 INFO 1936 [egg-watcher] Start watching: "d:\\egg-learn\\config"
+2018-12-05 15:51:03,131 INFO 1936 [egg-watcher] Start watching: "d:\\egg-learn\\mocks"
+2018-12-05 15:51:03,132 INFO 1936 [egg-watcher] Start watching: "d:\\egg-learn\\mocks_proxy"
+2018-12-05 15:51:03,132 INFO 1936 [egg-watcher] Start watching: "d:\\egg-learn\\app.js"
+2018-12-05 15:51:03,132 INFO 1936 [egg-watcher:agent] watcher start success
+2018-12-05 15:51:04,150 WARN 1936 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 2 seconds to retry...
+2018-12-05 15:53:24,584 INFO 4744 [egg:logger] init all loggers with options: {"dir":"d:\\egg-learn\\logs\\egg-learn","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-learn-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-05 15:53:24,996 INFO 4744 [egg:core] dump config after load, 9ms
+2018-12-05 15:53:25,034 INFO 4744 [egg-watcher] Start watching: ["d:\\egg-learn\\app","d:\\egg-learn\\config","d:\\egg-learn\\mocks","d:\\egg-learn\\mocks_proxy","d:\\egg-learn\\app.js"]
+2018-12-05 15:53:25,034 INFO 4744 [egg-watcher] Start watching: "d:\\egg-learn\\app"
+2018-12-05 15:53:25,035 INFO 4744 [egg-watcher] Start watching: "d:\\egg-learn\\config"
+2018-12-05 15:53:25,035 INFO 4744 [egg-watcher] Start watching: "d:\\egg-learn\\mocks"
+2018-12-05 15:53:25,035 INFO 4744 [egg-watcher] Start watching: "d:\\egg-learn\\mocks_proxy"
+2018-12-05 15:53:25,035 INFO 4744 [egg-watcher] Start watching: "d:\\egg-learn\\app.js"
+2018-12-05 15:53:25,035 INFO 4744 [egg-watcher:agent] watcher start success
+2018-12-05 15:53:26,072 WARN 4744 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 2 seconds to retry...
+2018-12-05 15:53:42,865 INFO 7544 [egg:logger] init all loggers with options: {"dir":"d:\\egg-learn\\logs\\egg-learn","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-learn-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-05 15:53:43,275 INFO 7544 [egg:core] dump config after load, 8ms
+2018-12-05 15:53:43,314 INFO 7544 [egg-watcher] Start watching: ["d:\\egg-learn\\app","d:\\egg-learn\\config","d:\\egg-learn\\mocks","d:\\egg-learn\\mocks_proxy","d:\\egg-learn\\app.js"]
+2018-12-05 15:53:43,314 INFO 7544 [egg-watcher] Start watching: "d:\\egg-learn\\app"
+2018-12-05 15:53:43,315 INFO 7544 [egg-watcher] Start watching: "d:\\egg-learn\\config"
+2018-12-05 15:53:43,315 INFO 7544 [egg-watcher] Start watching: "d:\\egg-learn\\mocks"
+2018-12-05 15:53:43,315 INFO 7544 [egg-watcher] Start watching: "d:\\egg-learn\\mocks_proxy"
+2018-12-05 15:53:43,315 INFO 7544 [egg-watcher] Start watching: "d:\\egg-learn\\app.js"
+2018-12-05 15:53:43,316 INFO 7544 [egg-watcher:agent] watcher start success
+2018-12-05 15:53:44,360 WARN 7544 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 2 seconds to retry...
+2018-12-05 15:54:51,986 INFO 6384 [egg:logger] init all loggers with options: {"dir":"d:\\egg-learn\\logs\\egg-learn","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-learn-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-05 15:54:52,400 INFO 6384 [egg:core] dump config after load, 9ms
+2018-12-05 15:54:52,441 INFO 6384 [egg-watcher] Start watching: ["d:\\egg-learn\\app","d:\\egg-learn\\config","d:\\egg-learn\\mocks","d:\\egg-learn\\mocks_proxy","d:\\egg-learn\\app.js"]
+2018-12-05 15:54:52,441 INFO 6384 [egg-watcher] Start watching: "d:\\egg-learn\\app"
+2018-12-05 15:54:52,442 INFO 6384 [egg-watcher] Start watching: "d:\\egg-learn\\config"
+2018-12-05 15:54:52,442 INFO 6384 [egg-watcher] Start watching: "d:\\egg-learn\\mocks"
+2018-12-05 15:54:52,443 INFO 6384 [egg-watcher] Start watching: "d:\\egg-learn\\mocks_proxy"
+2018-12-05 15:54:52,443 INFO 6384 [egg-watcher] Start watching: "d:\\egg-learn\\app.js"
+2018-12-05 15:54:52,443 INFO 6384 [egg-watcher:agent] watcher start success
+2018-12-05 15:54:53,487 WARN 6384 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 2 seconds to retry...
+2018-12-05 15:57:06,507 INFO 10476 [egg:logger] init all loggers with options: {"dir":"d:\\egg-learn\\logs\\egg-learn","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-learn-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-05 15:57:06,930 INFO 10476 [egg:core] dump config after load, 9ms
+2018-12-05 15:57:06,972 INFO 10476 [egg-watcher] Start watching: ["d:\\egg-learn\\app","d:\\egg-learn\\config","d:\\egg-learn\\mocks","d:\\egg-learn\\mocks_proxy","d:\\egg-learn\\app.js"]
+2018-12-05 15:57:06,972 INFO 10476 [egg-watcher] Start watching: "d:\\egg-learn\\app"
+2018-12-05 15:57:06,973 INFO 10476 [egg-watcher] Start watching: "d:\\egg-learn\\config"
+2018-12-05 15:57:06,973 INFO 10476 [egg-watcher] Start watching: "d:\\egg-learn\\mocks"
+2018-12-05 15:57:06,973 INFO 10476 [egg-watcher] Start watching: "d:\\egg-learn\\mocks_proxy"
+2018-12-05 15:57:06,973 INFO 10476 [egg-watcher] Start watching: "d:\\egg-learn\\app.js"
+2018-12-05 15:57:06,973 INFO 10476 [egg-watcher:agent] watcher start success
+2018-12-05 15:57:08,014 WARN 10476 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 2 seconds to retry...
+2018-12-05 15:58:37,635 INFO 14796 [egg:logger] init all loggers with options: {"dir":"d:\\egg-learn\\logs\\egg-learn","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-learn-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-05 15:58:37,724 INFO 14796 [egg:core] dump config after load, 9ms
+2018-12-05 15:58:37,770 INFO 14796 [egg-watcher] Start watching: ["d:\\egg-learn\\app","d:\\egg-learn\\config","d:\\egg-learn\\mocks","d:\\egg-learn\\mocks_proxy","d:\\egg-learn\\app.js"]
+2018-12-05 15:58:37,770 INFO 14796 [egg-watcher] Start watching: "d:\\egg-learn\\app"
+2018-12-05 15:58:37,771 INFO 14796 [egg-watcher] Start watching: "d:\\egg-learn\\config"
+2018-12-05 15:58:37,771 INFO 14796 [egg-watcher] Start watching: "d:\\egg-learn\\mocks"
+2018-12-05 15:58:37,771 INFO 14796 [egg-watcher] Start watching: "d:\\egg-learn\\mocks_proxy"
+2018-12-05 15:58:37,771 INFO 14796 [egg-watcher] Start watching: "d:\\egg-learn\\app.js"
+2018-12-05 15:58:37,772 INFO 14796 [egg-watcher:agent] watcher start success
+2018-12-05 15:58:37,786 INFO 14796 [egg:core] dump config after ready, 11ms
+2018-12-05 15:59:29,887 INFO 12092 [egg:logger] init all loggers with options: {"dir":"d:\\egg-learn\\logs\\egg-learn","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-learn-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-05 15:59:29,982 INFO 12092 [egg:core] dump config after load, 9ms
+2018-12-05 15:59:30,031 INFO 12092 [egg-watcher] Start watching: ["d:\\egg-learn\\app","d:\\egg-learn\\config","d:\\egg-learn\\mocks","d:\\egg-learn\\mocks_proxy","d:\\egg-learn\\app.js"]
+2018-12-05 15:59:30,031 INFO 12092 [egg-watcher] Start watching: "d:\\egg-learn\\app"
+2018-12-05 15:59:30,032 INFO 12092 [egg-watcher] Start watching: "d:\\egg-learn\\config"
+2018-12-05 15:59:30,032 INFO 12092 [egg-watcher] Start watching: "d:\\egg-learn\\mocks"
+2018-12-05 15:59:30,032 INFO 12092 [egg-watcher] Start watching: "d:\\egg-learn\\mocks_proxy"
+2018-12-05 15:59:30,032 INFO 12092 [egg-watcher] Start watching: "d:\\egg-learn\\app.js"
+2018-12-05 15:59:30,032 INFO 12092 [egg-watcher:agent] watcher start success
+2018-12-05 15:59:30,053 INFO 12092 [egg:core] dump config after ready, 11ms
