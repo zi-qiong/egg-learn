@@ -5,7 +5,11 @@
   "main": "index.js",
   "dependencies": {
     "egg": "^2.14.1",
-    "egg-bin": "^4.9.0"
+    "egg-bin": "^4.9.0",
+    "egg-sequelize": "^4.2.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "moment": "^2.22.2",
+    "mysql2": "^1.6.4"
   },
   "devDependencies": {},
   "scripts": {

@@ -1,5 +1,14 @@
 {
   "keys": "D:\\egg-learn\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "D:\\egg-learn\\config\\config.default.js",
+    "mapping": {
+      ".tpl": "D:\\egg-learn\\config\\config.default.js"
+    },
+    "root": "D:\\egg-learn\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\egg-learn\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\egg-learn\\node_modules\\egg-view\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "D:\\egg-learn\\node_modules\\egg-session\\config\\config.default.js",
     "key": "D:\\egg-learn\\node_modules\\egg-session\\config\\config.default.js",
@@ -131,12 +140,12 @@
     "buffer": "D:\\egg-learn\\node_modules\\egg-static\\config\\config.default.js",
     "maxFiles": "D:\\egg-learn\\node_modules\\egg-static\\config\\config.default.js"
   },
-  "view": {
-    "root": "D:\\egg-learn\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\egg-learn\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "D:\\egg-learn\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "D:\\egg-learn\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "D:\\egg-learn\\node_modules\\egg-view\\config\\config.default.js"
+  "nunjucks": {
+    "autoescape": "D:\\egg-learn\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\egg-learn\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\egg-learn\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\egg-learn\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\egg-learn\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
   },
   "env": "D:\\egg-learn\\node_modules\\egg\\config\\config.default.js",
   "name": "D:\\egg-learn\\node_modules\\egg\\config\\config.default.js",
@@ -151,7 +160,9 @@
     "main": "D:\\egg-learn\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "egg": "D:\\egg-learn\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "D:\\egg-learn\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "D:\\egg-learn\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\egg-learn\\node_modules\\egg\\config\\config.default.js",
+      "moment": "D:\\egg-learn\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": "D:\\egg-learn\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
