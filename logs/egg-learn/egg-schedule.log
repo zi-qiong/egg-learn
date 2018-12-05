@@ -1,8 +1,0 @@
-2018-11-30 10:56:25,549 INFO 16084 [Timer] D:\egg-learn\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-12-01 00:00:00.000
-2018-11-30 10:56:25,550 INFO 16084 [Timer] D:\egg-learn\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-12-01 00:00:01.000
-2018-12-05 15:58:39,278 INFO 14796 [Timer] d:\egg-learn\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-12-06 00:00:00.000
-2018-12-05 15:58:39,279 INFO 14796 [Timer] d:\egg-learn\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-12-06 00:00:01.000
-2018-12-05 15:59:31,561 INFO 12092 [Timer] d:\egg-learn\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-12-06 00:00:00.000
-2018-12-05 15:59:31,562 INFO 12092 [Timer] d:\egg-learn\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-12-06 00:00:01.000
-2018-12-05 16:20:43,537 INFO 13008 [Timer] d:\egg-learn\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-12-06 00:00:00.000
-2018-12-05 16:20:43,538 INFO 13008 [Timer] d:\egg-learn\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-12-06 00:00:01.000
