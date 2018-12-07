@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.blog-header {
+  background: #fff;
+}
+.blog-header ul {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 25px;
+}
+.blog-header ul li {
+  list-style: none;
+  float: left;
+  position: relative;
+}
+.blog-header ul li a {
+  text-decoration: none;
+  color: black;
+}
+.blog-header ul li a:hover {
+  opacity: 0.6;
+}
+.blog-header ul li + li {
+  margin-left: 20px;
+}
