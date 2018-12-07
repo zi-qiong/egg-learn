@@ -1,0 +1,47 @@
+.listView{
+    width: 1140px;
+    margin:0 auto 0;
+    padding-top: 86px;
+    .list-item{
+        padding: 25px;
+        height: 366px;
+        width: 100%;
+        box-sizing: border-box;
+        box-shadow: 0 0 7px rgba(202,203,203,0.7);
+        background: #fff;
+        border-radius: 10px;
+        position: relative;
+        h2{
+            margin: 20px auto 10px;
+            .fs(28px);
+            .clr(#555);
+            .tc;
+        }
+        .info{
+            margin: 5px auto 20px;
+        }
+        .desc{
+            .fs(16px);
+            line-height: 1.5;
+            overflow : hidden;
+            text-overflow: ellipsis; 
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        .btn{
+            position: absolute;
+            bottom: 35px;
+            left: 50%;
+            width: 104px;
+            height: 32px;
+            padding: 5px;
+            margin-left: -52px;
+            line-height: 32px;
+            background: #222;
+            color: #fff;
+            border: 2px solid #222;
+            .tc;
+        }
+    }
+}
