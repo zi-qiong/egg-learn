@@ -2,7 +2,8 @@ const Controller = require('egg').Controller;
 
 class PartnerController extends Controller {
     async index() {
-        await this.ctx.render('partner/index.tpl')
+        const menu = 'partner'
+        await this.ctx.render('partner/index.tpl', {menu})
     }
 }
 

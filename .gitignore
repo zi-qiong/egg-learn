@@ -2,3 +2,4 @@ node_modules/
 run/
 logs/
 package-lock.json
+app/public/css/

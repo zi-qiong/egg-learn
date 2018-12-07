@@ -2,7 +2,8 @@ const Controller = require('egg').Controller;
 
 class InterviewController extends Controller {
     async index() {
-        await this.ctx.render('interview/index.tpl')
+        const menu = 'interview'
+        await this.ctx.render('interview/index.tpl', {menu})
     }
 }
 
