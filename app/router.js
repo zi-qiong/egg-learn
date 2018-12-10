@@ -4,4 +4,5 @@ module.exports = app => {
   router.get('/article', controller.article.index);
   router.get('/interview', controller.interview.index);
   router.get('/partner', controller.partner.index);
+  router.get('/user', controller.user.index);
 };
