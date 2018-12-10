@@ -1,1 +1,1 @@
-{% include '../layout/index.tpl' %}
+{% extends '../layout/index.tpl' %}

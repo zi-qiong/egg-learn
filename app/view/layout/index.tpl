@@ -12,5 +12,6 @@
         {% endblock %}
       </section>
     </div>
+    {% block javascript %}{% endblock %}
   </body>
 </html>
