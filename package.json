@@ -8,6 +8,10 @@
     "egg-bin": "^4.9.0",
     "egg-mongoose": "^3.1.1",
     "egg-view-nunjucks": "^2.2.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.1",
     "moment": "^2.22.2",
     "mysql2": "^1.6.4"
   },
