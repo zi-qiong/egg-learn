@@ -11,6 +11,11 @@ class ArtcleController extends Controller {
         };
         await this.ctx.render('article/index.tpl', {menu,dataList})
     }
+    async detail() {
+        const name = `hello ${this.ctx.params.id}`
+        console.log('this',this.ctx.params)
+        await this.ctx.render('article/detail.tpl', {name})
+    }
 }
 
 module.exports = ArtcleController;
