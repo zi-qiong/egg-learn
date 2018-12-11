@@ -7,7 +7,7 @@
   <body>
     <div id="app">
       {% include './header.tpl' %}
-      <section>
+      <section class="blog-content">
         {% block content %}
         {% endblock %}
       </section>
